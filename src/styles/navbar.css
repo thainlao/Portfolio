@@ -1,0 +1,137 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: #0c0d1d;
+    box-shadow: 0 5px 15px rgba(255,255,255,0.1);
+    transition: all 0.3s ease;
+  }
+
+  @media (max-width: 1200px) {
+    .navbar {
+      padding: 0.5rem 2.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar {
+      padding: 0.3rem 4rem;
+    }
+}
+
+  .navbar.visible {
+    opacity: 1;
+  }
+  
+  .navbar.hidden {
+    opacity: 0;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #03e9e9;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .nav {
+    display: flex;
+    column-gap: 50px;
+    font-size: 25px;
+    font-style: italic;
+  }
+
+@media (max-width: 767px) {
+    .nav{
+        display: none;
+    }
+}
+  
+  .nav_list {
+    color: #f200b2;
+    position: relative;
+    z-index: 1;
+    padding: 0 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .nav_list::before {
+    background: #f200b2;
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: transform 0.5s;
+    border-radius: 10px;
+    z-index: -1;
+  }
+  
+  .nav_list:hover::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+  }
+  
+  .nav_list:hover {
+    color: white;
+  }
+
+  .mobile-menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.mobile-menu-icon span {
+    width: 30px;
+    height: 4px;
+    background-color: #f200b2;
+    margin: 3px 0;
+    transition: 0.4s;
+}
+
+.open span:nth-child(1) {
+    transform: rotate(-45deg) translate(-10px, 4px);
+}
+
+.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.open span:nth-child(3) {
+    transform: rotate(45deg) translate(-10px, -4px);
+}
+
+@media (max-width: 767px) {
+    .nav{
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background: #0c0d1d;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+    }
+    
+    .nav.open {
+        display: flex;
+    }
+}
+
+  

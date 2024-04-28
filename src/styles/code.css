@@ -1,0 +1,125 @@
+.code {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.code_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+@media (max-width: 1200px) {
+    .code_section {
+      
+    }
+}
+@media (max-width: 767px) {
+    .code_section{
+        padding-left: 20px;
+    }
+}
+.code_text {
+    font-size: 34px;
+    color: purple;
+}
+.code_text_sub{
+    max-width: 400px;
+    color: white;
+    font-size: 18px;
+    opacity: 0.7;
+}
+.code_colored {
+    opacity: 1;
+    color: white;
+}
+.code_text_sub .code_colored {
+    opacity: 1;
+}
+.code_text_main{
+    font-size: 48px;
+    color: white;
+    font-weight: 800;
+}
+@media (max-width: 1200px) {
+    .code_text_main {
+      
+    }
+}
+@media (max-width: 767px) {
+    .code_text_main{
+        display: flex;
+        white-space: nowrap;
+        font-size: 38px;
+    }
+}
+
+.code_button {
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 50px;
+    width: 210px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid #f200b2;
+}
+.code_button_span {
+    color: #f200b2;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+.code_button_span:hover {
+    animation: storm 0.7s ease-in-out both;
+    animation-delay: 0.06s;
+}
+
+.code_button:hover {
+    animation: rotate 0.7s ease-in-out both;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) translate3d(0, 0, 0)
+    }
+    25% {
+        transform: rotate(3deg) translate3d(0, 0, 0)
+    }
+    50% {
+        transform: rotate(-3deg) translate3d(0, 0, 0)
+    }
+    75% {
+        transform: rotate(1deg) translate3d(0, 0, 0)
+    }
+    100% {
+        transform: rotate(0deg) translate3d(0, 0, 0)
+    }
+}
+
+@keyframes storm {
+    0% {
+        transform: translate3d( 0, 0, 0) translateZ(0)
+    }
+    25% {
+        transform: translate3d( 4px, 0, 0) translateZ(0)
+    }
+    50% {
+        transform: translate3d( -3px, 0, 0) translateZ(0)
+    }
+    75% {
+        transform: translate3d( 2px, 0, 0) translateZ(0)
+    }
+    100% {
+        transform: translate3d( 0, 0, 0) translateZ(0)
+    }
+}

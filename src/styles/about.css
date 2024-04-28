@@ -1,0 +1,92 @@
+.matrix {
+    z-index: -1;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.about_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.about_text_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+
+.about_p {
+    font-family: 'cbk';
+    font-size: 8rem;
+    color: white;
+    padding: 0rem clamp(1rem, 2vw, 3rem);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+@media (max-width: 1200px) {
+    .about_p {
+      font-size: 65px;
+    }
+}
+@media (max-width: 767px) {
+    .about_p{
+        font-size: 55px;
+    }
+}
+.about_p1 {
+    font-family: 'cbk';
+    font-size: 8rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+@media (max-width: 1200px) {
+    .about_p {
+      font-size: 65px;
+    }
+}
+@media (max-width: 767px) {
+    .about_p{
+        font-size: 55px;
+    }
+}
+.about_p1_f {
+    font-size: 8rem;
+    color: white;
+    transition: all 0.3s ease;
+    font-family: 'Popping', sans-serif;
+}
+@media (max-width: 1200px) {
+    .about_p_f {
+      font-size: 65px;
+    }
+}
+@media (max-width: 767px) {
+    .about_p_f{
+        font-size: 55px;
+    }
+}
+
+@font-face {
+    font-family: 'cbk';
+    src: url('../assets/Hacked\ Cyr.ttf') format('truetype');
+}
+
+
+/* ANIMATION */
+
+
+
+/* ANIMATION */
+
+.text-animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}

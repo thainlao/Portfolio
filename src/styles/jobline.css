@@ -1,0 +1,114 @@
+.jobline_container {
+    min-height: 50vh;
+    height: auto;
+    display: flex;
+
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.jobline_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobline {
+    width: 24%;
+    background: white;
+    height: 1px;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+@media (max-width: 1200px) {
+    .jobline {
+      width: 24%;
+    }
+}
+@media (max-width: 767px) {
+    .jobline{
+        width: 21%;
+    }
+}
+
+.active {
+    opacity: 1;
+}
+
+.jobline_ball {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-8px);
+    box-shadow: 4px 4px 4px solid black;
+}
+.active_ball {
+    opacity: 1;
+    border: 1px solid rgb(255, 255, 255);
+    background: #f200b2;
+    animation: pulse 1s infinite;
+}
+
+.step_text {
+    color: white;
+    margin-top: 10px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+    font-size: 23px;
+}
+@media (max-width: 1200px) {
+    .step_text {
+      font-size: 19px;
+    }
+}
+@media (max-width: 767px) {
+    .step_text{
+        font-size: 10px;
+    }
+}
+
+.step_text.active {
+    opacity: 1;
+    color: #f200b2;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: translateY(-5px) scale(1);
+        box-shadow: 4px 4px 4px solid black;
+    }
+    50% {
+        transform: translateY(-8px) scale(1.01);
+        box-shadow: 6px 6px 6px 2px black;
+    }
+}
+
+.main_text_job {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+@media (max-width: 1200px) {
+    .main_text_job {
+      font-size: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .main_text_job{
+        font-size: 12px;
+        white-space: nowrap;
+    }
+}
+
+
+
