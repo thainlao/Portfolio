@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b3a044d0.css",
-    "main.js": "/Portfolio/static/js/main.afac9e13.js",
-    "static/media/cbk.png": "/Portfolio/static/media/cbk.766bf3bc5cdb127580cb.png",
-    "static/media/clone.png": "/Portfolio/static/media/clone.2dad2a2b189b71f26cb0.png",
-    "static/media/art.png": "/Portfolio/static/media/art.fc12f61548b12681ff2f.png",
-    "static/media/artnft.png": "/Portfolio/static/media/artnft.60110f07c4c22acb2e25.png",
-    "static/media/usa.png": "/Portfolio/static/media/usa.b4d295db17a5ea17522e.png",
-    "static/media/pngwing.com (4).png": "/Portfolio/static/media/pngwing.com (4).2f2532db663fd5ec5f95.png",
-    "static/media/store.png": "/Portfolio/static/media/store.0a1f95a7bad8976b4c62.png",
-    "static/media/pngwing.com (5).png": "/Portfolio/static/media/pngwing.com (5).b58e0cada6bdc52879ba.png",
-    "static/media/Hacked Cyr.ttf": "/Portfolio/static/media/Hacked Cyr.42fadd1830398765d840.ttf",
-    "static/media/pngwing.com (3).png": "/Portfolio/static/media/pngwing.com (3).1d7b133e22ffe4829da6.png",
-    "static/media/ebg.png": "/Portfolio/static/media/ebg.8434a4215ee413fc071c.png",
-    "static/media/logo1.png": "/Portfolio/static/media/logo1.e08a5d744c95c809e77f.png",
-    "static/media/me.jpeg": "/Portfolio/static/media/me.985582ac3fbf72176626.jpeg",
-    "static/media/pngwing.com (2).png": "/Portfolio/static/media/pngwing.com (2).99426a611bd5b768e71d.png",
-    "static/media/pngwing.com (1).png": "/Portfolio/static/media/pngwing.com (1).f7f12e1bf59e577656a2.png",
-    "static/media/pngwing.com (6).png": "/Portfolio/static/media/pngwing.com (6).bb13ebd9561a6ee645c2.png",
-    "index.html": "/Portfolio/index.html",
-    "main.b3a044d0.css.map": "/Portfolio/static/css/main.b3a044d0.css.map",
-    "main.afac9e13.js.map": "/Portfolio/static/js/main.afac9e13.js.map"
+    "main.css": "/portfolio/static/css/main.fbcde9e7.css",
+    "main.js": "/portfolio/static/js/main.ea36ea5c.js",
+    "static/media/cbk.png": "/portfolio/static/media/cbk.766bf3bc5cdb127580cb.png",
+    "static/media/clone.png": "/portfolio/static/media/clone.2dad2a2b189b71f26cb0.png",
+    "static/media/art.png": "/portfolio/static/media/art.fc12f61548b12681ff2f.png",
+    "static/media/artnft.png": "/portfolio/static/media/artnft.60110f07c4c22acb2e25.png",
+    "static/media/usa.png": "/portfolio/static/media/usa.b4d295db17a5ea17522e.png",
+    "static/media/pngwing.com (4).png": "/portfolio/static/media/pngwing.com (4).2f2532db663fd5ec5f95.png",
+    "static/media/store.png": "/portfolio/static/media/store.0a1f95a7bad8976b4c62.png",
+    "static/media/pngwing.com (5).png": "/portfolio/static/media/pngwing.com (5).b58e0cada6bdc52879ba.png",
+    "static/media/Hacked Cyr.ttf": "/portfolio/static/media/Hacked Cyr.42fadd1830398765d840.ttf",
+    "static/media/pngwing.com (3).png": "/portfolio/static/media/pngwing.com (3).1d7b133e22ffe4829da6.png",
+    "static/media/ebg.png": "/portfolio/static/media/ebg.8434a4215ee413fc071c.png",
+    "static/media/logo1.png": "/portfolio/static/media/logo1.e08a5d744c95c809e77f.png",
+    "static/media/me.jpeg": "/portfolio/static/media/me.985582ac3fbf72176626.jpeg",
+    "static/media/pngwing.com (2).png": "/portfolio/static/media/pngwing.com (2).99426a611bd5b768e71d.png",
+    "static/media/pngwing.com (1).png": "/portfolio/static/media/pngwing.com (1).f7f12e1bf59e577656a2.png",
+    "static/media/pngwing.com (6).png": "/portfolio/static/media/pngwing.com (6).bb13ebd9561a6ee645c2.png",
+    "index.html": "/portfolio/index.html",
+    "main.fbcde9e7.css.map": "/portfolio/static/css/main.fbcde9e7.css.map",
+    "main.ea36ea5c.js.map": "/portfolio/static/js/main.ea36ea5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3a044d0.css",
-    "static/js/main.afac9e13.js"
+    "static/css/main.fbcde9e7.css",
+    "static/js/main.ea36ea5c.js"
   ]
 }
